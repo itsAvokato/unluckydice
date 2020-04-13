@@ -46,4 +46,4 @@ async def gg(ctx):
     result=("{}\n**Генерирую...🎲** \n{}\n{}\n{}\n{}\n{}\n{}".format(ctx.author.mention, r1, r2, r3, r4, r5, r6))
     await ctx.send(result)
     
-client.run('MTk3NjY0NjQwMDIzNTI3NDI1.Xkz5Ag.lW97Ez6g9IZheuYUXX1jSZLiIiA')
+client.run('')
