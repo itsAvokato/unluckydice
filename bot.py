@@ -8,7 +8,7 @@ client=commands.Bot(command_prefix=BOT_PREFIX, help_command=None)
 
 @client.event
 async def on_ready():
-    await client.change_presence(activity=discord.Game("D&D 5e"))
+    await client.change_presence(activity=discord.Game("D&D 5e | !r !gg"))
     print('{0.user} - готов!'.format(client))
    
 @client.command()
